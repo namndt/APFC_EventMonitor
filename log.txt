@@ -1,0 +1,23 @@
+2021-11-04 16:46:50,373 [ INFO] SysEventMonitor.py|create_ini_file() : "D:\__ALL_PROJECT__\APFC_EventMonitor\release\config.ini" is not exist. Creating new INI file...
+2021-11-04 16:47:35,228 [ INFO] SysEventMonitor.py|          start() : STARTING SERVICE SYSEVENTMONITOR
+2021-11-04 16:47:35,673 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor[SysEventMonitor] had started!"
+2021-11-04 16:47:35,675 [ERROR] SysEventMonitor.py|           main() : x_wmi in <FrameSummary file SysEventMonitor.py, line 233 in main> cause <x_wmi: Unexpected COM Error (-2147221008, 'CoInitialize has not been called.', None, None)>
+2021-11-04 16:48:24,529 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor[SysEventMonitor] had stopped!"
+2021-11-04 16:48:24,534 [ERROR] SysEventMonitor.py|           stop() : STOPPING SERVICE SYSEVENTMONITOR
+2021-11-04 16:49:12,732 [ INFO] SysEventMonitor.py|          start() : STARTING SERVICE SYSEVENTMONITOR
+2021-11-04 16:49:13,192 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor[SysEventMonitor] had started!"
+2021-11-04 16:49:13,195 [ERROR] SysEventMonitor.py|           main() : x_wmi_uninitialised_thread in <FrameSummary file SysEventMonitor.py, line 233 in main> cause <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+2021-11-04 16:51:04,484 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor[SysEventMonitor] had stopped!"
+2021-11-04 16:51:04,485 [ERROR] SysEventMonitor.py|           stop() : STOPPING SERVICE SYSEVENTMONITOR
+2021-11-04 16:52:14,710 [ INFO] SysEventMonitor.py|          start() : STARTING SERVICE SYSEVENTMONITOR
+2021-11-04 16:52:15,115 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor [SysEventMonitor] had started!"
+2021-11-04 16:52:15,118 [ERROR] SysEventMonitor.py|           main() : x_wmi_uninitialised_thread in <FrameSummary file SysEventMonitor.py, line 233 in main> cause <x_wmi: WMI returned a syntax error: you're probably running inside a thread without first calling pythoncom.CoInitialize[Ex] (no underlying exception)>
+2021-11-04 16:55:59,038 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor [SysEventMonitor] had stopped!"
+2021-11-04 16:55:59,039 [ERROR] SysEventMonitor.py|           stop() : STOPPING SERVICE SYSEVENTMONITOR
+2021-11-04 16:57:46,407 [ INFO] SysEventMonitor.py|          start() : STARTING SERVICE SYSEVENTMONITOR
+2021-11-04 16:57:47,044 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor [SysEventMonitor] had started!"
+2021-11-04 16:58:11,480 [ INFO] SysEventMonitor.py|get_last_critical() : Last critical event time: 20211101091606.389289-000 UTC
+2021-11-04 16:58:11,482 [ INFO] SysEventMonitor.py|query_local_computer() : SELECT * FROM Win32_NTLogEvent WHERE Logfile = "System" AND (Type = "重大" or Type = "Critical") AND TimeWritten>"20211101091606.389289-000"
+2021-11-04 16:58:14,333 [DEBUG] SysEventMonitor.py|           main() : ================================================================================
+2021-11-04 17:00:54,400 [ INFO] SysEventMonitor.py|    send_notify() : POST "http://10.199.15.109:8080/api/line/notify.php" 200 "APFC02 Event Monitor [SysEventMonitor] had stopped!"
+2021-11-04 17:00:54,401 [ERROR] SysEventMonitor.py|           stop() : STOPPING SERVICE SYSEVENTMONITOR
